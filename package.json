@@ -1,0 +1,36 @@
+{
+  "name": "log-array",
+  "version": "1.0.0",
+  "description": "Log an array, with an option to sort and order it",
+  "license": "MIT",
+  "repository": "gillstrom/log-array",
+  "author": {
+    "name": "Andreas Gillström",
+    "email": "andreasgillstrom@gmail.com",
+    "url": "github.com/gillstrom"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "console",
+    "console.log",
+    "error",
+    "info",
+    "log",
+    "logging",
+    "warn"
+  ],
+  "devDependencies": {
+    "ava": "^0.0.4",
+    "claim": "^1.3.0",
+    "test-console": "^0.7.1"
+  }
+}
